@@ -1,0 +1,61 @@
+[
+ {
+ "id": 0,
+ "type": "radio",
+ "question": "Choose Your Gender",
+ "Answer" : "",
+ "arrOption" : [18,19],
+ "arrAnswer" : []
+ },
+ {
+ "id": 1,
+ "type": "datePicker",
+ "question": "Your Birthdate?",
+ "Answer": "",
+ "arrOption" : [],
+ "arrAnswer" : []
+ },
+ {
+ "id": 4,
+ "type": "picker",
+ "question": "What is your height?",
+ "Answer": "",
+ "arrOption" : [],
+ "arrAnswer" : []
+ },
+ {
+ "id": 2,
+ "type": "checkbox",
+ "question": "What is Your Favourite Food?",
+ "Answer" : "",
+ "arrOption" : [6,7,8,9],
+ "arrAnswer" : []
+ 
+ },
+ {
+ "id": 3,
+ "type": "checkbox",
+ "question": "WERE YOU ABLE TO FIND THE INFORMATION YOU WERE LOOKING FOR?",
+ "Answer" : "",
+ "arrOption" : [13,14,15,16,17],
+ "arrAnswer" : []
+ },
+ {
+ "id": 5,
+ "type": "checkbox",
+ "question": "Did You liked the Look and feel of Form?",
+ "Answer" : "",
+ "arrOption" : [1,2,3,4],
+ "arrAnswer" : []
+ 
+ },
+ {
+ "id": 6,
+ "type": "textView",
+ "question": "DO YOU HAVE ANY SUGGESTIONS OR PROBLEMS YOU'D LIKE US TO KNOW?",
+ "Answer": "",
+ "arrOption" : [],
+ "arrAnswer" : []
+ }
+ ]
+

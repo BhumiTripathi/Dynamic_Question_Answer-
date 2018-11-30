@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GlobalPickerView" customModule="HealthManager" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDone" destination="sKA-pS-fDQ" id="UVB-OG-l35"/>
+                <outlet property="viewPicker" destination="Gtw-Om-5Q7" id="W28-W7-d0x"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gtw-Om-5Q7">
+                    <rect key="frame" x="0.0" y="44" width="348" height="216"/>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="spk-6g-b2Z"/>
+                        <outlet property="delegate" destination="-1" id="bWh-TX-OzB"/>
+                    </connections>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKA-pS-fDQ">
+                    <rect key="frame" x="212" y="0.0" width="120" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Aq5-di-6Es"/>
+                        <constraint firstAttribute="width" constant="120" id="n3i-59-ivr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDoneAction:" destination="-1" eventType="touchUpInside" id="7I6-hY-f5v"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96862745098039216" green="0.97647058823529409" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Gtw-Om-5Q7" firstAttribute="top" secondItem="sKA-pS-fDQ" secondAttribute="bottom" id="LPS-RH-47X"/>
+                <constraint firstAttribute="bottom" secondItem="Gtw-Om-5Q7" secondAttribute="bottom" id="TI5-3C-T76"/>
+                <constraint firstItem="Gtw-Om-5Q7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="izO-So-qG8"/>
+                <constraint firstAttribute="trailing" secondItem="Gtw-Om-5Q7" secondAttribute="trailing" id="s5h-kO-nWP"/>
+                <constraint firstAttribute="trailing" secondItem="sKA-pS-fDQ" secondAttribute="trailing" constant="16" id="tt1-mh-0Yt"/>
+                <constraint firstItem="sKA-pS-fDQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xxK-Pd-L3C"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-103" y="-157"/>
+        </view>
+    </objects>
+</document>

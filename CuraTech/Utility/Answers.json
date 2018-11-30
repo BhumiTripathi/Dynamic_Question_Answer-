@@ -1,0 +1,79 @@
+[
+ {
+ "id": 1,
+ "value": "LOVE IT"
+ },
+ {
+ "id": 2,
+ "value": "IT’S PRETTY GOOD"
+ },
+ {
+ "id": 3,
+ "value": "IT’S JUST OK"
+ },
+ {
+ "id": 4,
+ "value": "DON’T REALLY LIKE IT"
+ },
+ {
+ "id": 5,
+ "value": "OTHER",
+ },
+ {
+ "id": 6,
+ "value": "Indian"
+ },
+ {
+ "id": 7,
+ "value": "Italian"
+ },
+ {
+ "id": 8,
+ "value": "Chinese"
+ },
+ {
+ "id": 9,
+ "value": "Mexican"
+ },
+ {
+ "id": 10,
+ "value": "OTHER Food",
+ },
+ {
+ "id": 11,
+ "value": "YES"
+ },
+ {
+ "id": 12,
+ "value": "NO",
+ },
+ {
+ "id": 13,
+ "value": "EXTREMELY LIKELY"
+ },
+ {
+ "id": 14,
+ "value": "VERY LIKELY"
+ },
+ {
+ "id": 15,
+ "value": "SOMEWHAT LIKELY"
+ },
+ {
+ "id": 16,
+ "value": "NOT VERY LIKELY"
+ },
+ {
+ "id": 17,
+ "value": "NOT LIKELY AT ALL"
+ },
+ {
+ "id": 18,
+ "value": "Male"
+ },
+ {
+ "id": 19,
+ "value": "Female"
+ }
+ ]
+

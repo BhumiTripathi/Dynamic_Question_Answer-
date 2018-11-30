@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3290B4211EBAD500F0FEBD /* TblCellAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290B2211EBAD400F0FEBD /* TblCellAnswer.swift */; };
+		AA3290B6211EBE3800F0FEBD /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290B5211EBE3800F0FEBD /* ParseJson.swift */; };
+		AA3290B7211EBE3800F0FEBD /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290B5211EBE3800F0FEBD /* ParseJson.swift */; };
+		AA3290B9211EC4D000F0FEBD /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290B8211EC4D000F0FEBD /* JsonData.swift */; };
+		AA3290BA211EC4D000F0FEBD /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290B8211EC4D000F0FEBD /* JsonData.swift */; };
+		AA3290BC211EEBF700F0FEBD /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290BB211EEBF700F0FEBD /* DetailVC.swift */; };
+		AA3290C4211F0EDA00F0FEBD /* CustomeDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3290BF211F0EDA00F0FEBD /* CustomeDatePicker.xib */; };
+		AA3290C5211F0EDA00F0FEBD /* CustomeDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3290BF211F0EDA00F0FEBD /* CustomeDatePicker.xib */; };
+		AA3290C6211F0EDA00F0FEBD /* CustomeDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290C0211F0EDA00F0FEBD /* CustomeDatePicker.swift */; };
+		AA3290C7211F0EDA00F0FEBD /* CustomeDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290C0211F0EDA00F0FEBD /* CustomeDatePicker.swift */; };
+		AA3290C8211F0EDB00F0FEBD /* GlobalPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3290C2211F0EDA00F0FEBD /* GlobalPickerView.xib */; };
+		AA3290C9211F0EDB00F0FEBD /* GlobalPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3290C2211F0EDA00F0FEBD /* GlobalPickerView.xib */; };
+		AA3290CA211F0EDB00F0FEBD /* GlobalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290C3211F0EDA00F0FEBD /* GlobalPickerView.swift */; };
+		AA3290CB211F0EDB00F0FEBD /* GlobalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290C3211F0EDA00F0FEBD /* GlobalPickerView.swift */; };
+		AA3290CD211F127700F0FEBD /* DetailVC+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290CC211F127700F0FEBD /* DetailVC+Enum.swift */; };
+		AA3290D0211F12CF00F0FEBD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290CF211F12CF00F0FEBD /* Enums.swift */; };
+		AA3290D1211F12CF00F0FEBD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3290CF211F12CF00F0FEBD /* Enums.swift */; };
+		AA387C6E21201722003B4AD7 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA387C6621201722003B4AD7 /* AddButtonView.swift */; };
+		AA387C6F21201722003B4AD7 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA387C6721201722003B4AD7 /* AddButtonView.xib */; };
+		AA387C7021201722003B4AD7 /* tblFloating.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA387C6921201722003B4AD7 /* tblFloating.xib */; };
+		AA387C7121201722003B4AD7 /* tblCellFloating.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA387C6B21201722003B4AD7 /* tblCellFloating.xib */; };
+		AA387C7221201722003B4AD7 /* tblCellFloating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA387C6C21201722003B4AD7 /* tblCellFloating.swift */; };
+		AA387C7321201722003B4AD7 /* tblFloating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA387C6D21201722003B4AD7 /* tblFloating.swift */; };
+		AA78970D212089ED009D4384 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66632211DF5F7007243DE /* AppConstant.swift */; };
+		AA78970E212089F1009D4384 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66634211DF737007243DE /* ColorConstant.swift */; };
+		AA789711212095FF009D4384 /* AddQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA789710212095FF009D4384 /* AddQuestion.swift */; };
+		AA789712212095FF009D4384 /* AddQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA789710212095FF009D4384 /* AddQuestion.swift */; };
+		AA920C4F211F2AD7005FFA34 /* Dateformatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA920C4E211F2AD7005FFA34 /* Dateformatter.swift */; };
+		AAC573612120361800A61FA1 /* AddQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC573602120361800A61FA1 /* AddQuestionVC.swift */; };
+		AAC573632120407100A61FA1 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC573622120407100A61FA1 /* Validations.swift */; };
+		AAC573642120407100A61FA1 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC573622120407100A61FA1 /* Validations.swift */; };
+		AAC573662120419C00A61FA1 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC573652120419C00A61FA1 /* AlertController.swift */; };
+		AAC573672120419C00A61FA1 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC573652120419C00A61FA1 /* AlertController.swift */; };
+		AAC5736A21204DBA00A61FA1 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5736921204DBA00A61FA1 /* SplashVC.swift */; };
+		AAC5736D21204F5000A61FA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAC5736C21204F5000A61FA1 /* README.md */; };
+		AAC5736E21204F5000A61FA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAC5736C21204F5000A61FA1 /* README.md */; };
+		AAF66608211DEEA3007243DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66607211DEEA3007243DE /* AppDelegate.swift */; };
+		AAF6660D211DEEA3007243DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF6660B211DEEA3007243DE /* Main.storyboard */; };
+		AAF6660F211DEEA7007243DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF6660E211DEEA7007243DE /* Assets.xcassets */; };
+		AAF66612211DEEA7007243DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF66610211DEEA7007243DE /* LaunchScreen.storyboard */; };
+		AAF6661D211DEEA8007243DE /* CuraTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6661C211DEEA8007243DE /* CuraTechTests.swift */; };
+		AAF66630211DF56E007243DE /* ViewNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF6662E211DF56E007243DE /* ViewNavBar.xib */; };
+		AAF66631211DF56E007243DE /* ViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6662F211DF56E007243DE /* ViewNavBar.swift */; };
+		AAF66633211DF5F7007243DE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66632211DF5F7007243DE /* AppConstant.swift */; };
+		AAF66635211DF737007243DE /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66634211DF737007243DE /* ColorConstant.swift */; };
+		AAF66637211DF89A007243DE /* QuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66636211DF89A007243DE /* QuestionsVC.swift */; };
+		AAF6663C211DFBA3007243DE /* TblCellDataListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF6663A211DFBA3007243DE /* TblCellDataListing.swift */; };
+		AAF6663D211DFBA3007243DE /* TblCellDataListing.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF6663B211DFBA3007243DE /* TblCellDataListing.xib */; };
+		AAF6663F211E02A0007243DE /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF6663E211E02A0007243DE /* questionnaire.json */; };
+		AAF66640211E02A0007243DE /* questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF6663E211E02A0007243DE /* questionnaire.json */; };
+		AAF66642211E02D7007243DE /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66641211E02D7007243DE /* Questions.swift */; };
+		AAF66643211E02D7007243DE /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66641211E02D7007243DE /* Questions.swift */; };
+		AAF66645211E04C1007243DE /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66644211E04C1007243DE /* Answer.swift */; };
+		AAF66646211E04C1007243DE /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF66644211E04C1007243DE /* Answer.swift */; };
+		AAF66648211E07EF007243DE /* Answers.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF66647211E07EF007243DE /* Answers.json */; };
+		AAF66649211E07EF007243DE /* Answers.json in Resources */ = {isa = PBXBuildFile; fileRef = AAF66647211E07EF007243DE /* Answers.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF66619211DEEA8007243DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF665FC211DEEA3007243DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF66603211DEEA3007243DE;
+			remoteInfo = CuraTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3290B2211EBAD400F0FEBD /* TblCellAnswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblCellAnswer.swift; sourceTree = "<group>"; };
+		AA3290B5211EBE3800F0FEBD /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
+		AA3290B8211EC4D000F0FEBD /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		AA3290BB211EEBF700F0FEBD /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		AA3290BF211F0EDA00F0FEBD /* CustomeDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomeDatePicker.xib; sourceTree = "<group>"; };
+		AA3290C0211F0EDA00F0FEBD /* CustomeDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeDatePicker.swift; sourceTree = "<group>"; };
+		AA3290C2211F0EDA00F0FEBD /* GlobalPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlobalPickerView.xib; sourceTree = "<group>"; };
+		AA3290C3211F0EDA00F0FEBD /* GlobalPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalPickerView.swift; sourceTree = "<group>"; };
+		AA3290CC211F127700F0FEBD /* DetailVC+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVC+Enum.swift"; sourceTree = "<group>"; };
+		AA3290CF211F12CF00F0FEBD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		AA387C6621201722003B4AD7 /* AddButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		AA387C6721201722003B4AD7 /* AddButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
+		AA387C6921201722003B4AD7 /* tblFloating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tblFloating.xib; sourceTree = "<group>"; };
+		AA387C6B21201722003B4AD7 /* tblCellFloating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tblCellFloating.xib; sourceTree = "<group>"; };
+		AA387C6C21201722003B4AD7 /* tblCellFloating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellFloating.swift; sourceTree = "<group>"; };
+		AA387C6D21201722003B4AD7 /* tblFloating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblFloating.swift; sourceTree = "<group>"; };
+		AA789710212095FF009D4384 /* AddQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestion.swift; sourceTree = "<group>"; };
+		AA920C4E211F2AD7005FFA34 /* Dateformatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dateformatter.swift; sourceTree = "<group>"; };
+		AAC573602120361800A61FA1 /* AddQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionVC.swift; sourceTree = "<group>"; };
+		AAC573622120407100A61FA1 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		AAC573652120419C00A61FA1 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		AAC5736921204DBA00A61FA1 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		AAC5736C21204F5000A61FA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AAF66604211DEEA3007243DE /* CuraTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuraTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF66607211DEEA3007243DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF6660C211DEEA3007243DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF6660E211DEEA7007243DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF66611211DEEA7007243DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF66613211DEEA7007243DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF66618211DEEA7007243DE /* CuraTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuraTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF6661C211DEEA8007243DE /* CuraTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuraTechTests.swift; sourceTree = "<group>"; };
+		AAF6661E211DEEA8007243DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF6662E211DF56E007243DE /* ViewNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewNavBar.xib; sourceTree = "<group>"; };
+		AAF6662F211DF56E007243DE /* ViewNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewNavBar.swift; sourceTree = "<group>"; };
+		AAF66632211DF5F7007243DE /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		AAF66634211DF737007243DE /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		AAF66636211DF89A007243DE /* QuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVC.swift; sourceTree = "<group>"; };
+		AAF6663A211DFBA3007243DE /* TblCellDataListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblCellDataListing.swift; sourceTree = "<group>"; };
+		AAF6663B211DFBA3007243DE /* TblCellDataListing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TblCellDataListing.xib; sourceTree = "<group>"; };
+		AAF6663E211E02A0007243DE /* questionnaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questionnaire.json; sourceTree = "<group>"; };
+		AAF66641211E02D7007243DE /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		AAF66644211E04C1007243DE /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		AAF66647211E07EF007243DE /* Answers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Answers.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF66601211DEEA3007243DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF66615211DEEA7007243DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3290B0211EBAD400F0FEBD /* TblCellAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				AA3290B2211EBAD400F0FEBD /* TblCellAnswer.swift */,
+			);
+			path = TblCellAnswer;
+			sourceTree = "<group>";
+		};
+		AA3290BE211F0EDA00F0FEBD /* CustomeDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AA3290BF211F0EDA00F0FEBD /* CustomeDatePicker.xib */,
+				AA3290C0211F0EDA00F0FEBD /* CustomeDatePicker.swift */,
+			);
+			path = CustomeDatePicker;
+			sourceTree = "<group>";
+		};
+		AA3290C1211F0EDA00F0FEBD /* GlobalPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				AA3290C2211F0EDA00F0FEBD /* GlobalPickerView.xib */,
+				AA3290C3211F0EDA00F0FEBD /* GlobalPickerView.swift */,
+			);
+			path = GlobalPickerView;
+			sourceTree = "<group>";
+		};
+		AA387C6421201722003B4AD7 /* FloatingButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				AA387C6521201722003B4AD7 /* AddButtonView */,
+				AA387C6821201722003B4AD7 /* FloatingTable */,
+			);
+			path = FloatingButtonView;
+			sourceTree = "<group>";
+		};
+		AA387C6521201722003B4AD7 /* AddButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				AA387C6621201722003B4AD7 /* AddButtonView.swift */,
+				AA387C6721201722003B4AD7 /* AddButtonView.xib */,
+			);
+			path = AddButtonView;
+			sourceTree = "<group>";
+		};
+		AA387C6821201722003B4AD7 /* FloatingTable */ = {
+			isa = PBXGroup;
+			children = (
+				AA387C6921201722003B4AD7 /* tblFloating.xib */,
+				AA387C6A21201722003B4AD7 /* Cell */,
+				AA387C6D21201722003B4AD7 /* tblFloating.swift */,
+			);
+			path = FloatingTable;
+			sourceTree = "<group>";
+		};
+		AA387C6A21201722003B4AD7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA387C6B21201722003B4AD7 /* tblCellFloating.xib */,
+				AA387C6C21201722003B4AD7 /* tblCellFloating.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AAC5735F212035ED00A61FA1 /* AddQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				AAC573602120361800A61FA1 /* AddQuestionVC.swift */,
+			);
+			path = AddQuestion;
+			sourceTree = "<group>";
+		};
+		AAC5736821204DA300A61FA1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				AAC5736921204DBA00A61FA1 /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		AAF665FB211DEEA3007243DE = {
+			isa = PBXGroup;
+			children = (
+				AAF66606211DEEA3007243DE /* CuraTech */,
+				AAF6661B211DEEA8007243DE /* CuraTechTests */,
+				AAF66605211DEEA3007243DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF66605211DEEA3007243DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF66604211DEEA3007243DE /* CuraTech.app */,
+				AAF66618211DEEA7007243DE /* CuraTechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF66606211DEEA3007243DE /* CuraTech */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6662C211DF557007243DE /* Views */,
+				AAF66629211DF47D007243DE /* Controller */,
+				AAF66628211DF47D007243DE /* Model */,
+				AAF66627211DF47D007243DE /* Utility */,
+				AAF66607211DEEA3007243DE /* AppDelegate.swift */,
+				AAF6660B211DEEA3007243DE /* Main.storyboard */,
+				AAF6660E211DEEA7007243DE /* Assets.xcassets */,
+				AAF66610211DEEA7007243DE /* LaunchScreen.storyboard */,
+				AAC5736C21204F5000A61FA1 /* README.md */,
+				AAF66613211DEEA7007243DE /* Info.plist */,
+			);
+			path = CuraTech;
+			sourceTree = "<group>";
+		};
+		AAF6661B211DEEA8007243DE /* CuraTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6661C211DEEA8007243DE /* CuraTechTests.swift */,
+				AAF6661E211DEEA8007243DE /* Info.plist */,
+			);
+			path = CuraTechTests;
+			sourceTree = "<group>";
+		};
+		AAF66627211DF47D007243DE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AAC573652120419C00A61FA1 /* AlertController.swift */,
+				AA920C4E211F2AD7005FFA34 /* Dateformatter.swift */,
+				AAF66647211E07EF007243DE /* Answers.json */,
+				AAF6663E211E02A0007243DE /* questionnaire.json */,
+				AAF66634211DF737007243DE /* ColorConstant.swift */,
+				AAF66632211DF5F7007243DE /* AppConstant.swift */,
+				AA3290B5211EBE3800F0FEBD /* ParseJson.swift */,
+				AA3290CF211F12CF00F0FEBD /* Enums.swift */,
+				AAC573622120407100A61FA1 /* Validations.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AAF66628211DF47D007243DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAF66641211E02D7007243DE /* Questions.swift */,
+				AAF66644211E04C1007243DE /* Answer.swift */,
+				AA3290B8211EC4D000F0FEBD /* JsonData.swift */,
+				AA789710212095FF009D4384 /* AddQuestion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAF66629211DF47D007243DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAC5736821204DA300A61FA1 /* Splash */,
+				AAC5735F212035ED00A61FA1 /* AddQuestion */,
+				AAF6662B211DF4D3007243DE /* Detail */,
+				AAF6662A211DF4D3007243DE /* Questions */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AAF6662A211DF4D3007243DE /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				AAF66636211DF89A007243DE /* QuestionsVC.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		AAF6662B211DF4D3007243DE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AA3290BB211EEBF700F0FEBD /* DetailVC.swift */,
+				AA3290CC211F127700F0FEBD /* DetailVC+Enum.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AAF6662C211DF557007243DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA387C6421201722003B4AD7 /* FloatingButtonView */,
+				AA3290BE211F0EDA00F0FEBD /* CustomeDatePicker */,
+				AA3290C1211F0EDA00F0FEBD /* GlobalPickerView */,
+				AAF66638211DFBA3007243DE /* TblCells */,
+				AAF6662D211DF56E007243DE /* NavigationBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAF6662D211DF56E007243DE /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6662E211DF56E007243DE /* ViewNavBar.xib */,
+				AAF6662F211DF56E007243DE /* ViewNavBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		AAF66638211DFBA3007243DE /* TblCells */ = {
+			isa = PBXGroup;
+			children = (
+				AA3290B0211EBAD400F0FEBD /* TblCellAnswer */,
+				AAF66639211DFBA3007243DE /* TblCellDataListing */,
+			);
+			path = TblCells;
+			sourceTree = "<group>";
+		};
+		AAF66639211DFBA3007243DE /* TblCellDataListing */ = {
+			isa = PBXGroup;
+			children = (
+				AAF6663A211DFBA3007243DE /* TblCellDataListing.swift */,
+				AAF6663B211DFBA3007243DE /* TblCellDataListing.xib */,
+			);
+			path = TblCellDataListing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF66603211DEEA3007243DE /* CuraTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF66621211DEEA8007243DE /* Build configuration list for PBXNativeTarget "CuraTech" */;
+			buildPhases = (
+				AAF66600211DEEA3007243DE /* Sources */,
+				AAF66601211DEEA3007243DE /* Frameworks */,
+				AAF66602211DEEA3007243DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuraTech;
+			productName = CuraTech;
+			productReference = AAF66604211DEEA3007243DE /* CuraTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF66617211DEEA7007243DE /* CuraTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF66624211DEEA8007243DE /* Build configuration list for PBXNativeTarget "CuraTechTests" */;
+			buildPhases = (
+				AAF66614211DEEA7007243DE /* Sources */,
+				AAF66615211DEEA7007243DE /* Frameworks */,
+				AAF66616211DEEA7007243DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF6661A211DEEA8007243DE /* PBXTargetDependency */,
+			);
+			name = CuraTechTests;
+			productName = CuraTechTests;
+			productReference = AAF66618211DEEA7007243DE /* CuraTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF665FC211DEEA3007243DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Bhumika tripathi";
+				TargetAttributes = {
+					AAF66603211DEEA3007243DE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AAF66617211DEEA7007243DE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AAF66603211DEEA3007243DE;
+					};
+				};
+			};
+			buildConfigurationList = AAF665FF211DEEA3007243DE /* Build configuration list for PBXProject "CuraTech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF665FB211DEEA3007243DE;
+			productRefGroup = AAF66605211DEEA3007243DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF66603211DEEA3007243DE /* CuraTech */,
+				AAF66617211DEEA7007243DE /* CuraTechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF66602211DEEA3007243DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF66648211E07EF007243DE /* Answers.json in Resources */,
+				AAF66630211DF56E007243DE /* ViewNavBar.xib in Resources */,
+				AA3290C4211F0EDA00F0FEBD /* CustomeDatePicker.xib in Resources */,
+				AAF66612211DEEA7007243DE /* LaunchScreen.storyboard in Resources */,
+				AAC5736D21204F5000A61FA1 /* README.md in Resources */,
+				AA387C6F21201722003B4AD7 /* AddButtonView.xib in Resources */,
+				AA3290C8211F0EDB00F0FEBD /* GlobalPickerView.xib in Resources */,
+				AA387C7121201722003B4AD7 /* tblCellFloating.xib in Resources */,
+				AAF6660F211DEEA7007243DE /* Assets.xcassets in Resources */,
+				AA387C7021201722003B4AD7 /* tblFloating.xib in Resources */,
+				AAF6660D211DEEA3007243DE /* Main.storyboard in Resources */,
+				AAF6663D211DFBA3007243DE /* TblCellDataListing.xib in Resources */,
+				AAF6663F211E02A0007243DE /* questionnaire.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF66616211DEEA7007243DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF66640211E02A0007243DE /* questionnaire.json in Resources */,
+				AA3290C5211F0EDA00F0FEBD /* CustomeDatePicker.xib in Resources */,
+				AAC5736E21204F5000A61FA1 /* README.md in Resources */,
+				AAF66649211E07EF007243DE /* Answers.json in Resources */,
+				AA3290C9211F0EDB00F0FEBD /* GlobalPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF66600211DEEA3007243DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF66635211DF737007243DE /* ColorConstant.swift in Sources */,
+				AA3290B9211EC4D000F0FEBD /* JsonData.swift in Sources */,
+				AA3290C6211F0EDA00F0FEBD /* CustomeDatePicker.swift in Sources */,
+				AA3290CD211F127700F0FEBD /* DetailVC+Enum.swift in Sources */,
+				AAF66637211DF89A007243DE /* QuestionsVC.swift in Sources */,
+				AAC5736A21204DBA00A61FA1 /* SplashVC.swift in Sources */,
+				AA387C7321201722003B4AD7 /* tblFloating.swift in Sources */,
+				AA789711212095FF009D4384 /* AddQuestion.swift in Sources */,
+				AAF6663C211DFBA3007243DE /* TblCellDataListing.swift in Sources */,
+				AAC573612120361800A61FA1 /* AddQuestionVC.swift in Sources */,
+				AAF66645211E04C1007243DE /* Answer.swift in Sources */,
+				AA3290BC211EEBF700F0FEBD /* DetailVC.swift in Sources */,
+				AAF66642211E02D7007243DE /* Questions.swift in Sources */,
+				AA387C7221201722003B4AD7 /* tblCellFloating.swift in Sources */,
+				AA3290B6211EBE3800F0FEBD /* ParseJson.swift in Sources */,
+				AA3290CA211F0EDB00F0FEBD /* GlobalPickerView.swift in Sources */,
+				AAC573662120419C00A61FA1 /* AlertController.swift in Sources */,
+				AA387C6E21201722003B4AD7 /* AddButtonView.swift in Sources */,
+				AA3290B4211EBAD500F0FEBD /* TblCellAnswer.swift in Sources */,
+				AAF66631211DF56E007243DE /* ViewNavBar.swift in Sources */,
+				AA920C4F211F2AD7005FFA34 /* Dateformatter.swift in Sources */,
+				AAF66633211DF5F7007243DE /* AppConstant.swift in Sources */,
+				AA3290D0211F12CF00F0FEBD /* Enums.swift in Sources */,
+				AAC573632120407100A61FA1 /* Validations.swift in Sources */,
+				AAF66608211DEEA3007243DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF66614211DEEA7007243DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3290C7211F0EDA00F0FEBD /* CustomeDatePicker.swift in Sources */,
+				AA78970D212089ED009D4384 /* AppConstant.swift in Sources */,
+				AAF6661D211DEEA8007243DE /* CuraTechTests.swift in Sources */,
+				AAC573672120419C00A61FA1 /* AlertController.swift in Sources */,
+				AA3290CB211F0EDB00F0FEBD /* GlobalPickerView.swift in Sources */,
+				AAC573642120407100A61FA1 /* Validations.swift in Sources */,
+				AAF66646211E04C1007243DE /* Answer.swift in Sources */,
+				AAF66643211E02D7007243DE /* Questions.swift in Sources */,
+				AA3290B7211EBE3800F0FEBD /* ParseJson.swift in Sources */,
+				AA789712212095FF009D4384 /* AddQuestion.swift in Sources */,
+				AA3290D1211F12CF00F0FEBD /* Enums.swift in Sources */,
+				AA3290BA211EC4D000F0FEBD /* JsonData.swift in Sources */,
+				AA78970E212089F1009D4384 /* ColorConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF6661A211DEEA8007243DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF66603211DEEA3007243DE /* CuraTech */;
+			targetProxy = AAF66619211DEEA8007243DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF6660B211DEEA3007243DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF6660C211DEEA3007243DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF66610211DEEA7007243DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF66611211DEEA7007243DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF6661F211DEEA8007243DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF66620211DEEA8007243DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF66622211DEEA8007243DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ87YZ2XYA;
+				INFOPLIST_FILE = CuraTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhumi.CuraTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF66623211DEEA8007243DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ87YZ2XYA;
+				INFOPLIST_FILE = CuraTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhumi.CuraTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAF66625211DEEA8007243DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ87YZ2XYA;
+				INFOPLIST_FILE = CuraTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhumi.CuraTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuraTech.app/CuraTech";
+			};
+			name = Debug;
+		};
+		AAF66626211DEEA8007243DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ87YZ2XYA;
+				INFOPLIST_FILE = CuraTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bhumi.CuraTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuraTech.app/CuraTech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF665FF211DEEA3007243DE /* Build configuration list for PBXProject "CuraTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF6661F211DEEA8007243DE /* Debug */,
+				AAF66620211DEEA8007243DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF66621211DEEA8007243DE /* Build configuration list for PBXNativeTarget "CuraTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF66622211DEEA8007243DE /* Debug */,
+				AAF66623211DEEA8007243DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF66624211DEEA8007243DE /* Build configuration list for PBXNativeTarget "CuraTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF66625211DEEA8007243DE /* Debug */,
+				AAF66626211DEEA8007243DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF665FC211DEEA3007243DE /* Project object */;
+}
